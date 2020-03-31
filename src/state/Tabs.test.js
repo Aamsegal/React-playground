@@ -21,7 +21,7 @@ describe(`Tabs Component`, () => {
       content: 'Fugit, sapiente aspernatur corporis velit, dolor eum reprehenderit provident ipsam, maiores incidunt repellat! Facilis, neque doloremque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam exercitationem quos consectetur expedita consequatur.' },
   ];
 
-  it.skip('renders the first tab by default', () => {
+  it('renders the first tab by default', () => {
     const tree = renderer.create(<Tabs tabs={tabsProp} />).toJSON()
     expect(tree).toMatchSnapshot()
   })
