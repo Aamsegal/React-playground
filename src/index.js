@@ -5,9 +5,11 @@ import { BrowserRouter } from "react-router-dom";
 import './index.css';
 import DemonymApp from './demonymapp/demonymApp';
 import App from './paltrows-power-toes/App';
+import AppLang from "./lang-context/AppLang";
 
 ReactDOM.render(
-    <BrowserRouter>
+    /*<BrowserRouter>
         <App />
-    </BrowserRouter>, 
+    </BrowserRouter>*/
+    <AppLang />, 
 document.getElementById('root'));
