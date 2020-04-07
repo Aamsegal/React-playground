@@ -6,10 +6,12 @@ import './index.css';
 import DemonymApp from './demonymapp/demonymApp';
 import App from './paltrows-power-toes/App';
 import AppLang from "./lang-context/AppLang";
+import RegistrationForm from "./registrationForm/registrationForm"
 
 ReactDOM.render(
     /*<BrowserRouter>
         <App />
     </BrowserRouter>*/
-    <AppLang />, 
+    //<AppLang /> 
+    <RegistrationForm />,
 document.getElementById('root'));
