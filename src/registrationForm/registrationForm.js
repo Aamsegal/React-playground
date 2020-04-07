@@ -45,6 +45,7 @@ class RegistrationForm extends Component {
 
   handleSubmit(event) {
     event.preventDefault();
+    const notPropsName = event.target.name.value;
     const { name, password, repeatPassword } = this.state;
 
     console.log("Name: ", name.value);

@@ -7,11 +7,13 @@ import DemonymApp from './demonymapp/demonymApp';
 import App from './paltrows-power-toes/App';
 import AppLang from "./lang-context/AppLang";
 import RegistrationForm from "./registrationForm/registrationForm"
+import PlayingWithDangerApp from './playingwithdanger/playingwithdangerApp';
 
 ReactDOM.render(
     /*<BrowserRouter>
         <App />
     </BrowserRouter>*/
     //<AppLang /> 
-    <RegistrationForm />,
+    //<RegistrationForm />,
+    <PlayingWithDangerApp />,
 document.getElementById('root'));
