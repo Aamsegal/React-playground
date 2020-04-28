@@ -9,11 +9,14 @@ import AppLang from "./lang-context/AppLang";
 import RegistrationForm from "./registrationForm/registrationForm"
 import PlayingWithDangerApp from './playingwithdanger/playingwithdangerApp';
 
+
+console.log(process.env)
+
 ReactDOM.render(
-    /*<BrowserRouter>
+    <BrowserRouter>
         <App />
-    </BrowserRouter>*/
+    </BrowserRouter>,
     //<AppLang /> 
     //<RegistrationForm />,
-    <PlayingWithDangerApp />,
+    //<PlayingWithDangerApp />,
 document.getElementById('root'));
